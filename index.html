@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container" style="min-height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">
+                                <i class="bi bi-lock-fill"></i> Fintech
+                            </h3>
+                            <form>
+                                <div class="form-group">
+                                    <label for="email"><i class="bi bi-envelope-fill"></i> Insira seu email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password"><i class="bi bi-key-fill"></i> Insira sua senha</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Senha">
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    <i class="bi bi-box-arrow-in-right"></i> ENTRAR
+                                </button>
+                                <div class="text-center mt-3">
+                                    <a href="#"><i class="bi bi-question-circle-fill"></i> Esqueceu a senha?</a>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <p>Não possui uma conta? <a href="#"><i class="bi bi-pencil-fill"></i> Cadastre-se agora</a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">
+                                <i class="bi bi-person-plus-fill"></i> INFORME SEUS DADOS
+                            </h3>
+                            <form>
+                                <div class="form-group">
+                                    <label for="nome"><i class="bi bi-person-fill"></i> Nome</label>
+                                    <input type="text" class="form-control" id="nome" placeholder="Nome">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cpf"><i class="bi bi-credit-card-fill"></i> CPF</label>
+                                    <input type="text" class="form-control" id="cpf" placeholder="CPF">
+                                </div>
+                                <div class="form-group">
+                                    <label for="nascimento"><i class="bi bi-calendar-fill"></i> Nascimento</label>
+                                    <input type="date" class="form-control" id="nascimento">
+                                </div>
+                                <div class="form-group">
+                                    <label for="estado"><i class="bi bi-geo-fill"></i> Estado</label>
+                                    <select class="form-control" id="estado">
+                                        <option>RJ</option>
+                                        <option>SP</option>
+                                        <option>MG</option>
+                                        <option>ES</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"><i class="bi bi-envelope-fill"></i> E-Mail</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="senha"><i class="bi bi-key-fill"></i> Senha</label>
+                                    <input type="password" class="form-control" id="senha" placeholder="Senha">
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    <i class="bi bi-check2-circle"></i> CADASTRAR
+                                </button>
+                                <div class="text-center mt-3">
+                                    <p>Já possui uma conta? <a href="#"><i class="bi bi-box-arrow-in-right"></i> Aperte Aqui</a></p>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="conectado">
+                                    <label class="form-check-label" for="conectado"><i class="bi bi-link-45deg"></i> Mantenha-me conectado</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-12">
+                    <h3 class="text-center">
+                        <i class="bi bi-wallet2"></i> Resumo Financeiro
+                    </h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4><i class="bi bi-currency-exchange"></i> Gastos</h4>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Categoria</th>
+                                                <th>Valor mensal</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Mercado</td>
+                                                <td>R$ 532,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Farmácia</td>
+                                                <td>R$ 50,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Gasolina</td>
+                                                <td>R$ 150,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Água e Luz</td>
+                                                <td>R$ 200,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Aluguel</td>
+                                                <td>R$ 900,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Total</td>
+                                                <td>R$ 2.332,00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <button class="btn btn-success">
+                                        <i class="bi bi-plus-circle"></i> Adicionar novo serviço
+                                    </button>
+                                    <button class="btn btn-warning">
+                                        <i class="bi bi-pencil-square"></i> Editar serviço existente
+                                    </button>
+                                    <button class="btn btn-danger">
+                                        <i class="bi bi-trash"></i> Excluir serviço existente
+                                    </button>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="saldo-atual">
+                                        <h4><i class="bi bi-cash-stack"></i> Saldo Atual</h4>
+                                        <p>R$ 0,00</p>
+                                    </div>
+                                    <div class="extrato">
+                                        <h4><i class="bi bi-card-checklist"></i> Extrato</h4>
+                                        <p>Hoje, 23 abr de 2024</p>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <i class="bi bi-cash"></i> Conta de luz: R$ 200,00
+                                            </li>
+                                            <li class="list-group-item">
+                                                <i class="bi bi-cash"></i> Mercado: R$ 532,00
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-primary mt-3">
+                                            <i class="bi bi-plus"></i> Adicionar Transação
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end align-items-center mt-3">
+                                <i class="bi bi-person-circle" style="font-size: 1.5rem;"></i>
+                                <span class="ml-2">Olá, Hugo</span>
+                            </div>
+                            <button class="btn btn-secondary voltar-ao-inicio">
+                                <i class="bi bi-house-door-fill"></i> Voltar ao Início
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="text-center">
+                                <i class="bi bi-journal-text"></i> Extrato de Transações
+                            </h3>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active" id="despesas-tab" data-toggle="tab" href="#despesas" role="tab" aria-controls="despesas" aria-selected="true">Despesas</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="credito-tab" data-toggle="tab" href="#credito" role="tab" aria-controls="credito" aria-selected="false">Cartão de Crédito</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="despesas" role="tabpanel" aria-labelledby="despesas-tab">
+                                    <table class="table mt-3">
+                                        <thead>
+                                            <tr>
+                                                <th>Data</th>
+                                                <th>Descrição</th>
+                                                <th>Valor</th>
+                                                <th>Categoria</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>23/04/2024</td>
+                                                <td>Conta de luz</td>
+                                                <td>R$ 200,00</td>
+                                                <td>Despesas</td>
+                                            </tr>
+                                            <tr>
+                                                <td>23/04/2024</td>
+                                                <td>Mercado</td>
+                                                <td>R$ 532,00</td>
+                                                <td>Despesas</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade" id="credito" role="tabpanel" aria-labelledby="credito-tab">
+                                    <table class="table mt-3">
+                                        <thead>
+                                            <tr>
+                                                <th>Data</th>
+                                                <th>Descrição</th>
+                                                <th>Valor</th>
+                                                <th>Categoria</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>20/04/2024</td>
+                                                <td>Compra Online</td>
+                                                <td>R$ 150,00</td>
+                                                <td>Cartão de Crédito</td>
+                                            </tr>
+                                            <tr>
+                                                <td>18/04/2024</td>
+                                                <td>Restaurante</td>
+                                                <td>R$ 200,00</td>
+                                                <td>Cartão de Crédito</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end align-items-center mt-3">
+                                <i class="bi bi-person-circle" style="font-size: 1.5rem;"></i>
+                                <span class="ml-2">Olá, Hugo</span>
+                            </div>
+                            <button class="btn btn-secondary voltar-ao-inicio">
+                                <i class="bi bi-house-door-fill"></i> Voltar ao Início
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
